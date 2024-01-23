@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "0.109.0"
+uvicorn = "0.25.0"
+pydantic = "2.5.3"
+SQLAlchemy = "2.0.25"
+psycopg2-binary = "2.9.9"
+alembic = "1.13.1"
+python-dotenv = "1.0.0"
+strawberry_graphql = "0.217.1"
+
+[dev-packages]
+pre-commit = "3.6.0"
+pylint = "3.0.3"
+commit-linter = "1.0.3"
+pytest = "7.4.4"
+httpx = "0.23.1"
+
+[requires]
+python_version = "3.9"
